@@ -1,0 +1,59 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+.navbar{
+    background: gray;
+}
+.item{
+    display: flexbox;
+    text-align: end;
+}
+ 
+.header ul li{
+    display: inline;
+    padding: .5rem 1rem;
+}
+
+img{
+    text-align: center;
+}
+.hero-heading{
+   font-weight: bolder;
+}
+.heading-inverted{
+   font-style: italic;
+   color: plum;
+}
+.techno ,.blogs{
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid plum;
+}
+.project {
+    text-align: center;
+    padding: 1rem;
+    background-color: plum;
+    margin: 1rem 0;
+}
+.link{
+    text-decoration: none;
+    color: rgb(6, 68, 68);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.footer{
+    text-align: center;
+    border: 2px dotted plum;
+    background: plum;
+    margin: 5rem 0;
+    padding-top: 1rem ;
+}
+  
+.footer li{
+    display: inline-block;
+    text-align: center;
+    padding: .5rem;
+}
