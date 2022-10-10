@@ -1,59 +1,103 @@
-*{
- margin: 0;
- padding: 0;   
-}
 
 .navbar{
-    background: gray;
+    background:#aadbf0;
+    border-radius: 0 0 20px 20px;
+    font-size: large;
+    padding: 1rem;
+    
 }
+ 
 .item{
     display: flexbox;
     text-align: end;
+    padding-right: 5rem;
 }
  
 .header ul li{
     display: inline;
-    padding: .5rem 1rem;
+    padding: .5rem 2rem;
+}
+p{
+    font-size: large;
+}
+h1{
+    font-size: xx-large;
 }
 
 img{
-    text-align: center;
+    padding: 20px;
+    width: 60vw;
+   display: block;
+  margin: auto;
 }
 .hero-heading{
+    text-align: center;
    font-weight: bolder;
 }
 .heading-inverted{
    font-style: italic;
-   color: plum;
+   color:#0c4a6e;
 }
 .techno ,.blogs{
+    height:  auto;
+    background: #f0f9ff;
     text-align: center;
     padding: 1rem;
-    border: 2px solid plum;
+    border: 2px solid #38bdf8;
 }
+.blogs{
+    height: auto;
+}
+.browse{
+    background: #f0f9ff;
+    padding: 4px;
+}
+
 .project {
+     height: auto;
     text-align: center;
-    padding: 1rem;
-    background-color: plum;
+    background-color:#38bdf8;
     margin: 1rem 0;
+    padding: 1rem;
 }
 .link{
     text-decoration: none;
     color: rgb(6, 68, 68);
     font-weight: bolder;
     font-size: medium;
+    border: 2px solid #38bdf8;
+    border-radius: 2rem;
+    padding: 8px;
+    
+}
+.blogs a{
+    
+    border: 5px soid black;
+    margin-bottom: 10px;
 }
 
 .footer{
+    height: 15vh;
     text-align: center;
-    border: 2px dotted plum;
-    background: plum;
-    margin: 5rem 0;
-    padding-top: 1rem ;
+    background: #aadbf0;
+     margin-top: 40px;
+   position: relative;
+   padding-top: 10px;
+   border-radius: 20px 20px 0 0;
 }
   
-.footer li{
+.footer p{
+    padding-left: 40px;
+    font-size: x-large;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+ .footer li{
     display: inline-block;
     text-align: center;
-    padding: .5rem;
-}
+   margin: 10px;
+} 
