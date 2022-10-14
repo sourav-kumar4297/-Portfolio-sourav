@@ -20,14 +20,8 @@
     display: inline;
     padding: .5rem 2rem;
 }
-p{
-    font-size: large;
-}
-h1{
-    font-size: xx-large;
-}
 
-img{
+.profile-image{
     padding: 20px;
     width: 60vw;
    display: block;
@@ -41,7 +35,7 @@ img{
    font-style: italic;
    color:#0c4a6e;
 }
-.techno ,.blogs{
+.technology ,.blogs{
     height:  auto;
     background: #f0f9ff;
     text-align: center;
