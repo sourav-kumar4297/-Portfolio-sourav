@@ -1,7 +1,8 @@
 
+--backgr
 .navbar{
     background:#aadbf0;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 0 20px;
     font-size: large;
     padding: 1rem;
     
@@ -74,18 +75,16 @@
 }
 
 .footer{
-    height: 15vh;
-    text-align: center;
-    background: #aadbf0;
+     text-align: center;
+     background: #aadbf0;
      margin-top: 40px;
-   position: relative;
-   padding-top: 10px;
-   border-radius: 20px 20px 0 0;
+     position: relative;
+     border-radius: 20px 0 0 0;
 }
   
 .footer p{
     padding-left: 40px;
-    font-size: x-large;
+     
 }
 .footer a{
     text-decoration: none;
