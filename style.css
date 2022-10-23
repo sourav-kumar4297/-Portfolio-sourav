@@ -80,10 +80,13 @@
      margin-top: 40px;
      position: relative;
      border-radius: 20px 0 0 0;
+     
 }
   
 .footer p{
-    padding-left: 40px;
+    text-align: center;
+    font-size: larger;
+    padding: 1rem;
      
 }
 .footer a{
@@ -95,5 +98,7 @@
  .footer li{
     display: inline-block;
     text-align: center;
-   margin: 10px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+   
 } 
