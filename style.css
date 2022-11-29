@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 /* --backgr */
 .navbar{
     background:#aadbf0;
@@ -74,7 +75,7 @@
     margin-bottom: 10px;
 }
 
-.footer{
+footer{
      text-align: center;
      background: #aadbf0;
      margin-top: 40px;
@@ -83,22 +84,24 @@
      
 }
   
-.footer p{
+footer p{
     text-align: center;
-    font-size: larger;
+    font-size: large;
     padding: 1rem;
      
 }
-.footer a{
+footer a{
     text-decoration: none;
     color: black;
     font-size: large;
     font-weight: 400;
 }
- .footer li{
+ footer li{
     display: inline-block;
     text-align: center;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
    
 } 
+
+
